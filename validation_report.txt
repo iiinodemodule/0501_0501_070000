@@ -1,0 +1,20 @@
+﻿【驗證報告】: Node_0501_070001亮度演算法_0501_070000
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📦 套件結構：[子目錄型]
+
+▶ __init__.py 驗證
+  ✅ NODE_CLASS_MAPPINGS 已定義
+  ✅ NODE_DISPLAY_NAME_MAPPINGS 已定義
+  ✅ __all__ 已定義
+
+▶ 節點類別驗證：BrightnessNode_0501_070000
+  ✅ INPUT_TYPES: @classmethod ✓ / required ✓
+  ✅ RETURN_TYPES: Tuple 格式 ✓
+  ✅ FUNCTION 綁定: "execute" ↔ def execute() ✓
+  ✅ CATEGORY 已定義
+  ✅ 返回值檢查: execute() 返回 djust_brightness() 的單層 tuple，格式正確 ✓
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+驗證結果：通過
+風險：未發現明顯風險
+改善建議：安裝前建議再次確認 ComfyUI 環境已安裝 torch 套件。
